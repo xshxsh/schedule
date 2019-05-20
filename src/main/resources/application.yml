@@ -1,0 +1,9 @@
+#设置定时任务
+task:
+  taskName1: #任务名称
+    switch: true #是否开启定时任务
+    cron: "0/5 * * * * ?" #任务表达式
+  taskName2: #任务名称
+    switch: true #是否开启定时任务
+    cron: "0/5 * * * * ?" #任务表达式
+
